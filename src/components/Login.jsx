@@ -15,7 +15,7 @@ const Login = () => {
         <div className='modal-login'>
             <div className="gradie">
                 <div className='gradie-text pt-lg-5'>
-                    <p className='title text-center h1 '>Gradie</p>
+                    <p className='title text-center'>Gradie</p>
                     <p className='subtitle text-center h5'>Beautiful gradients in seconds.</p>
                 </div>
                 <img src={iphone} alt="" className="image text-center"/>
@@ -42,12 +42,12 @@ const Login = () => {
                     <div className="form-check">
                         <input className="form-check-input" type="checkbox" value=""/>
                         <label className="form-check-label" htmlFor="flexCheckDefault">
-                            By creating an account, you agree to the <a className='terms'>Terms & Conditions</a>.
+                            By creating an account, you agree to the <a className='terms'><b>Terms & Conditions</b></a>.
                         </label>
                     </div>
 
                     <div className="text-center">
-                        <button className="btn btn-lg btn-primary btn-acc" type="submit" value="create">Create an account</button>
+                        <button className="btn btn-lg btn-primary btn-acc" type="submit" value="create">Create an Account</button>
                     </div>
                 </form>
             </div>
